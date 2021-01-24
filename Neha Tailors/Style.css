@@ -1,0 +1,223 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.row .card-body .card-title{
+    background-color: darksalmon;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.row .card-body .card-text{
+    background-color: silver;
+    font-weight: bold;
+    text-align: center;
+}
+
+.background_image img {
+    width: 100%;
+    height: auto;
+}
+
+.bg-custom {
+    background-color: #1a1a1a !important;
+    border: #262626 5px solid;
+}
+
+.background_image {
+    position: relative;
+}
+
+nav ul li a:hover {
+    background-color: darkgray;
+    font-weight: bolder;
+}
+
+nav a #logo {
+    width: 100px;
+    height: 50px;
+    margin: 0;
+    padding-left: 10px;
+}
+
+nav #navbarTogglerDemo02 {
+    margin-left: 50%;
+}
+
+nav #navbarTogglerDemo02 ul li {
+    padding: 0 10px;
+}
+
+nav #navbarTogglerDemo02 ul li a {
+    float: right;
+}
+
+.background_image .text h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    color: white;
+    font-size: 4vw;
+}
+
+.background_image .text h3 {
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#services {
+    display: flex;
+    justify-content: space-around;
+}
+
+#services_containers {
+    margin: 20px 10px;
+}
+
+.services_main_container {
+    background-color: #1a1a1a;
+}
+
+.services_main_container h2 {
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 3vw;
+}
+
+.services_main_container h2:hover {
+    font-size: 4vw;
+    transition: font-size 2s;
+    color: orangered;
+}
+
+@media screen and (min-width:1231px) {
+    .card {
+        width: 25% !important;
+    }
+}
+
+.testimonials {
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 0;
+}
+
+.testimonials .row .test_con i {
+    color: gold;
+    padding: 2px;
+}
+
+.testimonials .row .test_con .quote {
+    color: black;
+    margin-right: 8px;
+}
+
+.testimonials h2 {
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.testimonials h2:hover {
+    font-size: 4vw;
+    transition: font-size 2s;
+    color: orangered;
+}
+
+.testimonials .row .test_con {
+    font-weight: 200;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 10px 10px 30px white;
+    cursor: pointer;
+    transition: transform 0.5s;
+    margin: 15px;
+    padding:80px 15px 15px 15px;
+    background-color: gray;
+    color: black
+}
+
+.testimonials .row .test_con .rating {
+    padding: 20px 0;
+}
+
+.testimonials .row .test_con:hover {
+    transform: translateY(-10px);
+}
+
+.testimonials .row{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;  
+}
+
+.contact_us{
+    background-color: #1a1a1a;
+    color: white;
+    padding: 30px 0;
+}
+
+.contact_us h2{
+    padding: 20px 0;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.contact_us h2:hover {
+    font-size: 4vw;
+    transition: font-size 2s;
+    color: orangered;
+}
+
+.contact_us #map{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact_us .row{
+    padding-top: 40px ;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 10px 10px 10px grey;
+    border: grey 2px solid;
+}
+
+.contact_us .row a{
+    cursor: pointer;
+    color: white;
+    width: 200px;
+    text-decoration: none;
+    display: block;
+    margin-top: 50px;
+    padding:10px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact_us .row p{
+    padding-top: 20px;
+}
+
+.contact_us .row .headings{
+    background-color: grey;
+    padding: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+footer a{
+    text-decoration: none;
+    color:white;
+}
